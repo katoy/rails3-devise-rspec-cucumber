@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.17'
+ ruby '2.0.0'
+gem 'rails', '~> 3.2.17'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -21,6 +22,32 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+group :test do
+	gem 'database_cleaner', '>= 0.9.1'
+	gem 'email_spec', '>= 1.4.0'
+	gem 'cucumber-rails', '>= 1.3.0', require: false
+	gem 'launchy', '>= 2.1.2'
+	gem 'capybara', '>= 2.0.2'
+
+	gem 'simplecov', require: false
+	gem 'simplecov-rcov', require: false
+	gem 'coveralls', require: false
+end
+
+group :development do
+	gem 'quiet_assets', '>= 1.0.1'
+	gem 'better_errors', '>= 0.3.2'
+	gem 'binding_of_caller', '>= 0.6.8'
+end
+
+group :test, :development do
+	gem 'rspec-rails', '>= 2.12.2'
+	gem 'factory_girl_rails', '>= 4.2.0'
+end
+
+gem 'devise', '>= 2.2.3'
+gem 'figaro', '>= 0.5.3'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
