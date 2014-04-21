@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.0.0
+env:
+  - DB=pgsql
+bundler_args: "--without development"
+script:
+  - bundle exec rake db:drop db:migrate test:prepare
+  - bundle exec rake spec
+  - bundle exec rake cucumber
