@@ -1,7 +1,11 @@
 
+![Build Status](https://travis-ci.org/katoy/rails3-devise-rspec-cucumber.svg?branch=master)](https://travis-ci.org/katoy/rails3-devise-rspec-cucumber)
+[![Dependency Status](https://gemnasium.com/katoy/rails3-devise-rspec-cucumber.svg)](https://gemnasium.com/katoy/rails3-devise-rspec-cucumber)
+
+
 http://railsapps.github.io/tutorial-rails-devise-rspec-cucumber.html
 RailsApps Tutorials: Devise with RSpec and Cucumber
-は rvm を利用する形で欠かれている。これを rbenv を利用して スクラッチからなぞってみた。(on mac 10.9.2)
+は rvm を利用する形で書かれている。これを rbenv を利用して スクラッチからなぞってみた。(on mac 10.9.2)
 
 最初の環境構築が、記事内と異なるだけで、あとは記事通りにすすめていけば良いはず。
 
