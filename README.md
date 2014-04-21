@@ -1,7 +1,7 @@
 
-![Build Status](https://travis-ci.org/katoy/rails3-devise-rspec-cucumber.svg?branch=master)](https://travis-ci.org/katoy/rails3-devise-rspec-cucumber)
+[![Build Status](https://travis-ci.org/katoy/rails3-devise-rspec-cucumber.svg?branch=master)](https://travis-ci.org/katoy/rails3-devise-rspec-cucumber)
 [![Dependency Status](https://gemnasium.com/katoy/rails3-devise-rspec-cucumber.svg)](https://gemnasium.com/katoy/rails3-devise-rspec-cucumber)
-
+[![Coverage Status](https://coveralls.io/repos/katoy/rails3-devise-rspec-cucumber/badge.png)](https://coveralls.io/r/katoy/rails3-devise-rspec-cucumber)
 
 http://railsapps.github.io/tutorial-rails-devise-rspec-cucumber.html
 RailsApps Tutorials: Devise with RSpec and Cucumber
